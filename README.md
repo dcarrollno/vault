@@ -2,7 +2,7 @@
 
 This is a quick program to export the secrets from a Vault instance and save it locally to a shelve file.
 You can then restore the secrets from the shelve file to a new Vault instance, thereby creating a migration.
-This can also be used as a backup engine for your secrets but you may want to incldue encryption beyond say
+This can also be used as a backup engine for your secrets but you may want to include encryption beyond say
 your cloud storage functionality. 
 
 Future improvements could include encrypting the shelve file on disk but I will defer that work for now.
